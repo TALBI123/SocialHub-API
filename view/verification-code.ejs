@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Code de vérification</title>
+  </head>
+  <body style="margin:0; padding:0; background-color:#1e1e1e; color:#ffffff; font-family:Segoe UI, sans-serif; height:100vh; text-align:center;">
+    <table role="presentation" width="100%" height="100%" cellspacing="0" cellpadding="0" border="0">
+      <tr>
+        <td align="center" valign="middle">
+          <table role="presentation" cellspacing="0" cellpadding="0" border="0" style="background-color:#2c2c2c; padding:40px 30px; border-radius:16px; max-width:500px; width:100%; box-shadow:0 0 20px rgba(0,0,0,0.5);">
+            <tr>
+              <td align="center">
+                <h2 style="color:#00bcd4; font-size:22px; margin-bottom:24px;">Voici votre code de vérification</h2>
+              </td>
+            </tr>
+            <tr>
+              <td align="center">
+                <table role="presentation" cellpadding="0" cellspacing="0" border="0">
+                  <tr>
+                    <% code.split('').forEach(item => { %>
+                      <td style="width:50px; height:50px; background-color:#37474f; color:#00bcd4; font-size:20px; font-weight:bold; border-radius:10px; text-align:center; vertical-align:middle; margin:0 5px;">
+                        <table role="presentation" width="100%" height="100%">
+                          <tr>
+                            <td align="center" valign="middle"><%= item %></td>
+                          </tr>
+                        </table>
+                      </td>
+                      <td style="width:10px;"></td> <!-- spacer -->
+                    <% }) %>
+                  </tr>
+                </table>
+              </td>
+            </tr>
+            <tr>
+              <td align="center" style="padding-top:20px;">
+                <p style="font-size:14px; color:#cccccc; margin:0;">
+                  Utilisez ce code pour réinitialiser votre mot de passe.
+                </p>
+              </td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+    </table>
+  </body>
+</html>
