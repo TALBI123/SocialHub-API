@@ -1,20 +1,21 @@
 # SocialHub-API
-🚀 API officielle pour SocialHub - Une API RESTful robuste pour interagir et automatiser vos activités sur les médias sociaux (Facebook, X/Twitter, Instagram, LinkedIn, etc.). Construite avec Node.js, Express et MongoDB.
+🚀 Official API for SocialHub - A robust RESTful API to interact with and automate your social media activities (Facebook, X/Twitter, Instagram, LinkedIn, etc.). Built with Node.js, Express, and MongoDB.
 
-#Details
-Ce repository contient le code source de l'API backend de SocialHub. Il fournit des endpoints sécurisés et documentés pour permettre aux développeurs d'intégrer les fonctionnalités de gestion des médias sociaux directement dans leurs propres applications, outils d'automatisation ou tableaux de bord.
+# Details
+This repository contains the source code for the SocialHub backend API. It provides secure and well-documented endpoints that allow developers to integrate social media management functionalities directly into their own applications, automation tools, or dashboards.
 
-L'API permet de :
+The API enables you to:
 
-Publier, planifier et analyser du contenu sur plusieurs plateformes.
+Publish, schedule, and analyze content across multiple platforms.
 
-Lire et répondre aux commentaires et messages.
+Read and respond to comments and messages.
 
-Récupérer des métriques de performance (engagements, portée, impressions).
+Retrieve performance metrics (engagements, reach, impressions).
 
-Gérer les profils sociaux et les utilisateurs de SocialHub.
+Manage social profiles and SocialHub users.
 
-✨ Fonctionnalités Clés (Key Features)
-🌐 Multi-Plateformes : Support unifié pour les principales plateformes sociales via leurs APIs respectives.
+✨ Key Features
+🌐 Multi-Platform Support: Unified support for major social platforms via their respective APIs.
 
-🔐 Authentification Sécurisée : JWT (JSON Web Tokens) pour une connexion sécurisée aux comptes sociaux.
+🔐 Secure Authentication: JWT (JSON Web Tokens) for secure authentication.
+
